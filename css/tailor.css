@@ -1,0 +1,138 @@
+  
+  .process-list-item {
+    position: relative;
+    padding-bottom: 18px;
+    padding-left: 48px;
+    border-left: 3px solid #ef413b;
+  }
+  
+  .process-list-item.last {
+    border-left-color: rgba(239, 65, 59, 0);
+  }
+  
+  .process-circle {
+    position: absolute;
+    left: -22px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    border: 3px solid #ef413b;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #ef413b;
+    text-align: center;
+  }
+  
+  .process-title {
+    margin-bottom: 14px;
+    font-family: Montserrat, sans-serif;
+    color: #2c2c2c;
+    font-weight: 700;
+  }
+  
+  .process-number {
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .process-paragraph {
+    color: #2c2c2c;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  
+  .about-us-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fff;
+  }
+  
+  .about-us-section.tint {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #edebeb;
+  }
+  
+  .about-us-section.home-intro {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  .about-us-section.cta-section {
+    padding-bottom: 0px;
+  }
+  
+  .about-us-section.coaches-section {
+    margin-bottom: -20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url('../images/Foto-7.html');
+    background-position: 100% 50%;
+  }
+  
+  .about-us-section.app-section {
+    padding-top: 45px;
+    padding-bottom: 0px;
+  }  
+  .about-us-col-left {
+    padding-right: 64px;
+  }
+
+  .column-title_2 {
+      font-size: 2rem;
+      color:black;
+  }
+
+  p{
+      color:black;
+  }
+
+  .home-intro{
+      margin-top:2rem;
+      background-color: red;
+  }
+
+  .impact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ef413b;
+    text-align: center;
+    color:#fff;
+    position:relative;
+  }
+  
+  .impact_container{
+    margin-top:25px;
+  }
+  
+  .impact h2{
+    font-size:5em;
+    padding:20px 0 0 30px;
+    font-family: 'Dinot medium', cursive;
+  }
+  
+  .impact p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:50;
+    font-size:1em;
+  }
+  
+  #impact-text-1{
+    padding-top:15px;
+  }
+  
+  .number15_text{
+    position:relative;
+    right:-100px;
+  }
+  
+ 
+  
+  .number30_text{
+    position: relative;
+    left:-80px;
+  }
