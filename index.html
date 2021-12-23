@@ -147,17 +147,47 @@
     <div class="w-container container">
         <div class="w-row">
             <div class="w-col w-col-12 projects-column">
-                <p class="w-editable body-copy" style="color: #fff;">As rightly said by Nelson Mandela, <span style="font-weight: 700; color:#fff">“The Youth of today are the leaders of tomorrow”</span>, and in
-                  future they’ll be leading their own respective domains. It is important to develop social conscience
-                  among youth from an early age because when they’ll be leading their respective domains in future,
-                  they’ll be conscious about the social issues and problems, and they will make decisions and take
-                  actions keeping in mind about the social issues and how their actions can have impact on the life of
-                  people. Change is our collective responsibility and we can address our responsibility if we will build
-                  social conscience among youth from an early age.</p>
+                <p class="w-editable body-copy" id="context" style="color: #fff;">Amid the deadly corona pandemic, when the entire world was engulfed with the fear of stepping out
+of their home, a 18 year old boy hailing from one of the backward and violence affected districts in
+Bihar was using his education as a tool to serve the affected mankind. He was serving the
+underprivileged communities who were not getting benefited by any govt schemes, with relief
+materials in the deep forest villages in Jamui district of Bihar. Jamui is one among the most backward
+districts in the country and was heavily affected by violence of naxals for so long. In 2006 the
+Ministry of Panchayati Raj named Jamui one of the country’s 250 most backward districts (out of a
+total of 640). Jamui is also included in the list of aspirational districts which are most
+developmentally challenged districts across sectors such as health and nutrition; education; agriculture
+and water resources; basic infrastructure; and financial inclusion and skill development.
+</p>
+<br>
+<a  class="sexy-button join-button" id="expand"  onclick="expand()"><span style="color: #ffffff;">Read More</span> </a>
+<a  class="sexy-button join-button" id="contract"  onclick="contract()" style="display: none; color: #fa3d4d;"><span style="color: #ffffff;">Read Less</span> </a>
                 </a>
             </div>
         </div>
     </div>
+<style>
+  .sexy-button{
+     font-size: 1.2rem; color:red; border:2px solid white; padding : .8rem; width : fit-content;border-radius: 2rem; cursor: pointer;
+  }
+  .sexy-button:hover{
+    background-color: #fa8f3d;
+    color:#151515;
+  }
+</style>
+    <script>
+      function expand(){
+        document.getElementById("context").innerHTML="Amid the deadly corona pandemic, when the entire world was engulfed with the fear of stepping outof their home, a 18 year old boy hailing from one of the backward and violence affected districts inBihar was using his education as a tool to serve the affected mankind. He was serving theunderprivileged communities who were not getting benefited by any govt schemes, with reliefmaterials in the deep forest villages in Jamui district of Bihar. Jamui is one among the most backwarddistricts in the country and was heavily affected by violence of naxals for so long. In 2006 theMinistry of Panchayati Raj named Jamui one of the country’s 250 most backward districts (out of atotal of 640). Jamui is also included in the list of aspirational districts which are mostdevelopmentally challenged districts across sectors such as health and nutrition; education; agricultureand water resources; basic infrastructure; and financial inclusion and skill development.<br><br>The scene of marginalized people suffering from the scarcity of basic necessity materials, lack ofknowledge about the preventive measure of virus and lack of money to purchase medicines for peoplewith covid symptoms made him restless. He searched for several people and organizations who weresupporting covid relief initiatives with resources at that time and contacted them. He used hiseducation as a tool to bridge the gap between resources and the needy people in his locality andsurrounding and had a direct impact in the lives of thousands of people.<br><br>It was during this time, when he interacted with community members closely and got to know aboutthe challenges that fellow human beings are facing. His interest grew more in community service anddesigning innovative models for involvement of Youth in community services. He realized that hisfellow young friends are not as inclined as he is in community services. They were not consciousenough of the challenges marginalized people are facing in their daily walk of life.<br><br>After that, he visited several small and bigger schools of the district to interact with the students andknow about their opinion on social issues and found that many of them were not even well awareabout the issues that matter to the generation, and some of them who were aware, weren’t consciousabout them. When students from class VII, VIII and IX were asked about SDGs, surprisingly many ofthem had not even heard about them and some had just heard and nothing more.<br><br>He traced the need of cultivating social conscience among the young generation and this led to hissocial startup YSpark, which is primarily working for nurturing social conscience among theyounger generation in schools and driving grassroot impact in line with UN’s SDGs 2030. We firmlybelieve that change is our collective responsibility and just like we talk about corporate socialresponsibility, everyone on the planet has their individual social responsibility and we need to makethem conscious about it through an educational approach from a young age."
+        document.getElementById("expand").style="display:none;"
+        document.getElementById("contract").style="display:block;"
+        console.log("op")
+      }
+      function contract(){
+        document.getElementById("context").innerHTML="Amid the deadly corona pandemic, when the entire world was engulfed with the fear of stepping outof their home, a 18 year old boy hailing from one of the backward and violence affected districts inBihar was using his education as a tool to serve the affected mankind. He was serving theunderprivileged communities who were not getting benefited by any govt schemes, with reliefmaterials in the deep forest villages in Jamui district of Bihar. Jamui is one among the most backwarddistricts in the country and was heavily affected by violence of naxals for so long. In 2006 theMinistry of Panchayati Raj named Jamui one of the country’s 250 most backward districts (out of atotal of 640). Jamui is also included in the list of aspirational districts which are mostdevelopmentally challenged districts across sectors such as health and nutrition; education; agricultureand water resources; basic infrastructure; and financial inclusion and skill development.";
+        document.getElementById("contract").style="display:none;border:2px solid white; padding : 1rem; border-radius: 2rem;"
+        document.getElementById("expand").style="display:block;"
+        console.log("op1")
+      }
+    </script>
     <br><br>
     <section class="ftco-section bg-light" id="VISION">
     	<div class="container-fluid">
